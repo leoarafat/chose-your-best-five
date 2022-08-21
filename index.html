@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSG - Paris Saint Germain</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header start here -->
+    <header>
+        <div class="left-photo">
+            <img src="image/messi header.jpg" alt="">
+        </div>
+        <div class="header-title">
+            <h1>PSG - Paris Saint Germain</h1>
+            <p class="header-text">
+                In the summer of 1970, an ambitious group of businessmen decided to create a major team in the French capital.[1][2] Guy Crescent and Pierre-Étienne Guyot chose to merge their virtual side, Paris FC, created in 1969, with Stade Saint-Germain of Henri Patrelle after the team from Saint-Germain-en-Laye, 15 km west of Paris and founded in 1904, won promotion to Division 2
+            </p>
+        </div>
+        <div class="right-photo">
+            <img src="image/neymer header.jpg" alt="" srcset="">
+        </div>
+    </header>
+    <!-- header end here -->
+
+    <!-- main start here -->
+    <main>
+        <!-- player section start -->
+        <section class="sec-1">
+           <div class="first-three">
+            <!-- card-1 -->
+            <div class="card" >
+                <img src="image/mbappe.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="name">kylian mbappe</h5>
+                  <p class="name">30 Goals, 10Assist</p>
+                  <a href="#" id="mbappe-btn" class="btn">Select</a>
+                </div>
+            </div>
+            <!-- card-1 -->
+
+            <!-- card-2 -->
+            <div class="card">
+                <img src="image/messi.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="name">Lionel Messi</h5>
+                  <p class="name">30 Goals, 10Assist</p>
+                  <a href="#" id="messi-btn"class="btn">Select</a>
+                </div>
+            </div>
+            <!-- card-2 -->
+
+            <!-- card-3 -->
+            <div class="card" >
+                <img src="image/neymer.jpg" class="" alt="">
+                <div class="card-body">
+                  <h5 class="name">Neymer Jr.</h5>
+                  <p class="name">30 Goals, 10Assist</p>
+                  <a href="#" id="neymer-btn"class="btn">Select</a>
+                </div>
+            </div>
+            <!-- card-3 -->
+            <!-- card-4 -->
+            <div class="player-list"> 
+                <h2 class="text-xl">Select fivePlayer</h2>
+                <ol>
+                    <li>kylian mbappe</li>
+                    <li>Lionel Messi</li>
+                    <li>Neymer Jr.</li>
+                    <li>Sergio Ramos</li>
+                    <li> keylor navas</li>
+                    <li>Achraf Hakimi</li>
+                </ol>
+            </div>
+            <!-- card-4 -->
+        </div>
+        </section>
+        <!-- player section end -->
+         <!--another player section start -->
+        <section>
+            <div class="last-three">
+                <div class="card" >
+                    <img src="image/navas (2).jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="name">Sergio Ramos</h5>
+                      <p class="name">30 Goals, 10Assist</p>
+                      <a href="#" id="ramos-btn"class="btn">Select</a>
+                    </div>
+                </div>
+                <!-- card-1 -->
+                <!-- card-2 -->
+                <div class="card">
+                    <img src="image/navas.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="name">keylor navas</h5>
+                      <p class="name">30 Goals, 10Assist</p>
+                      <a href="#" id="navas-btn"class="btn">Select</a>
+                    </div>
+                </div>
+                <!-- card-2 -->
+                <!-- card-3 -->
+                <div class="card" >
+                    <img src="image/veratti.jpg" class="" alt="">
+                    <div class="card-body">
+                      <h5 class="name">Marco Veratti</h5>
+                      <p class="name">30 Goals, 10Assist</p>
+                      <a href="#" id="veratti-btn"class="btn">Select</a>
+                    </div>
+                </div>
+                <!-- card-3 -->
+
+
+                <!-- calculate section start-->
+                <div class="player-calculate"> 
+                    <h2 >Budget</h2>
+                    <!-- <div class="budget"> -->
+                        <label for="player" class="name-sizing">
+                            player
+                        </label>
+                        <input id="player-field" type="text" name="" >
+                        <button id="calculate-btn" class="calc-btn">Calculate</button> 
+                        <p class="name-sizing">
+                            Player expenses $<span id="expenses-total">00</span>
+                        </p>
+                    <!-- </div> -->
+                    <!-- <div class="manager-coach"> -->
+                        <label class="name-sizing" for="">Manager</label>
+                        <input id="manager-field" type="text">
+                        <label class="name-sizing" for="">Coach</label>
+                        <input id="coach-field"  type="text">
+                        <button id="total-calculate-btn"class="calc-btn">Calculate Total</button>
+                    <!-- </div> -->
+                    <!-- <div class="last-total"> -->
+                        <p class="name-sizing">
+                            Total $<span id="last-total">00</span>
+                        </p>
+                       
+                    <!-- </div> -->
+                    
+                </div>
+                <!-- calculate section end -->
+            </div>
+        </section>
+        <!--another player section end -->
+       
+    </main>
+    <!-- main end here -->
+
+    <!-- footer start here -->
+    <footer>
+
+    </footer>
+    <!-- footer end here -->
+    <script src="js/main.js"></script>
+    <script src="js/calcculate.js"></script>
+</body>
+</html>
