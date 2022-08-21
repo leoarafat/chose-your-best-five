@@ -34,7 +34,7 @@
             <div class="card" >
                 <img src="image/mbappe.jpg" class="card-img-top" alt="">
                 <div class="card-body">
-                  <h5 class="name">kylian mbappe</h5>
+                  <h5 class="name" id="mbappe-name">kylian mbappe</h5>
                   <p class="name">30 Goals, 10Assist</p>
                   <a href="#" id="mbappe-btn" class="btn">Select</a>
                 </div>
@@ -45,7 +45,7 @@
             <div class="card">
                 <img src="image/messi.jpg" class="card-img-top" alt="">
                 <div class="card-body">
-                  <h5 class="name">Lionel Messi</h5>
+                  <h5 class="name" id="messi-name">Lionel Messi</h5>
                   <p class="name">30 Goals, 10Assist</p>
                   <a href="#" id="messi-btn"class="btn">Select</a>
                 </div>
@@ -56,22 +56,22 @@
             <div class="card" >
                 <img src="image/neymer.jpg" class="" alt="">
                 <div class="card-body">
-                  <h5 class="name">Neymer Jr.</h5>
+                  <h5 class="name" id="neymer-name">Neymer Jr.</h5>
                   <p class="name">30 Goals, 10Assist</p>
-                  <a href="#" id="neymer-btn"class="btn">Select</a>
+                  <a href="#" onclick="disable(this)" id="neymer-btn"class="btn">Select</a>
                 </div>
             </div>
             <!-- card-3 -->
             <!-- card-4 -->
             <div class="player-list"> 
                 <h2 class="text-xl">Select fivePlayer</h2>
-                <ol class="list-player-sizing">
-                    <li id="mbappe"></li>
-                    <li id="messi"></li>
-                    <li id="neymer"></li>
-                    <li id="ramos"></li>
-                    <li id="navas"></li>
-                    <li id="veratti"></li>
+                <ol id="main" class="list-player-sizing">
+                    <li id="mbappe-name-field"></li>
+                    <li id="messi-name-field"></li>
+                    <li id="neymer-name-field"></li>
+                    <li id="ramos-name-field"></li>
+                    <li id="navas-name-field"></li>
+                    <li id="veratti-name-field"></li>
                 </ol>
             </div>
             <!-- card-4 -->
@@ -84,7 +84,7 @@
                 <div class="card" >
                     <img src="image/navas (2).jpg" class="card-img-top" alt="">
                     <div class="card-body">
-                      <h5 class="name">Sergio Ramos</h5>
+                      <h5 class="name" id="ramos-name">Sergio Ramos</h5>
                       <p class="name">30 Goals, 10Assist</p>
                       <a href="#" id="ramos-btn"class="btn">Select</a>
                     </div>
@@ -94,7 +94,7 @@
                 <div class="card">
                     <img src="image/navas.jpg" class="card-img-top" alt="">
                     <div class="card-body">
-                      <h5 class="name">keylor navas</h5>
+                      <h5 class="name" id="navas-name">keylor navas</h5>
                       <p class="name">30 Goals, 10Assist</p>
                       <a href="#" id="navas-btn"class="btn">Select</a>
                     </div>
@@ -104,7 +104,7 @@
                 <div class="card" >
                     <img src="image/veratti.jpg" class="" alt="">
                     <div class="card-body">
-                      <h5 class="name">Marco Veratti</h5>
+                      <h5 class="name" id="veratti-name">Marco Veratti</h5>
                       <p class="name">30 Goals, 10Assist</p>
                       <a href="#" id="veratti-btn"class="btn">Select</a>
                     </div>
@@ -154,6 +154,7 @@
     </footer>
     <!-- footer end here -->
     <script src="js/main.js"></script>
+    <script src="js/select.js"></script>
     <script src="js/calcculate.js"></script>
 </body>
 </html>
