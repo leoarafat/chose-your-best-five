@@ -60,6 +60,9 @@ height: 200px;
     height: 350px;
   
 }
+.list-player-sizing li{
+    padding: 8px;
+}
 .player-ul li {
     padding: 5px;
 }
